@@ -20,6 +20,8 @@ $ make_image_classifier --help
 
 
 ### 사용법
+
+```
 my_image_dir
 |-- cat
 |   |-- a_feline_photo.jpg
@@ -33,6 +35,7 @@ my_image_dir
     |-- IMG87654321.JPG
     |-- my_fluffy_rabbit.JPEG
     `-- ...
+```
 
 ```shell
 make_image_classifier \ 
@@ -48,6 +51,7 @@ make_image_classifier \
 ### --image_dir 
 데이터셋 폴더명.
 
+```
 my_image_dir
 |-- cat
 |   |-- a_feline_photo.jpg
@@ -61,6 +65,7 @@ my_image_dir
     |-- IMG87654321.JPG
     |-- my_fluffy_rabbit.JPEG
     `-- ...
+```
 
 위와 같은 구조로 정리되어있어야 하며 이경우 my_image_dir이 해당되는 폴더명.(다른명칭가능).
 
