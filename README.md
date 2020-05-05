@@ -5,12 +5,12 @@ from tensorflow/tensorflow
 1. 사용한 오픈소스 코드
 주소 : https://github.com/tensorflow/hub/tree/master/tensorflow_hub/tools/make_image_classifier
 
->> 텐서플로우와, 해당 툴 다운로드 코드
+텐서플로우와, 해당 툴 다운로드 코드
 
 $ pip install "tensorflow~=2.0"
 $ pip install "tensorflow-hub[make_image_classifier]~=0.6"
 
->> 설치 후 확인
+설치 후 확인
 $ make_image_classifier --help
 
 
